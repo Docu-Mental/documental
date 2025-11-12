@@ -1,1 +1,1 @@
-This repo was created hosts a technical writer portfolio.
+This repo hosts a technical writer portfolio.
