@@ -1,1 +1,1 @@
-This repo hosts a technical writer portfolio.
+This repo hosts a technical writer portfolio in GitHub Pages.
