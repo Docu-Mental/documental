@@ -152,13 +152,16 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
+		}
+		
+	a.dots	{
+			border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		}
 
 	strong, b {
@@ -171,7 +174,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -201,13 +204,13 @@ input, select, textarea {
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.4rem;
 	}
 
 	h2 {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.4rem;
 	}
 
 	h3 {
@@ -1363,7 +1366,7 @@ input, select, textarea {
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
-					letter-spacing: 0.2rem;
+					letter-spacing: 0.1rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
 				}
@@ -1544,7 +1547,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 60rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1665,11 +1668,12 @@ input, select, textarea {
 /* Target the individual list item (the 'tile') */
 #header nav ul li {
     /* Override default flex-basis/width calculation */
-    width: 280px !important;
-    min-width: 280px !important; /* Ensure it stays fixed */
+    width: 25% !important;
+    min-width: 150px !important; /* Ensure it stays fixed */
+	 max-width: 80%;
     
     /* Set fixed height */
-    height: 200px !important; 
+    height: auto !important; 
     
     /* Ensure internal link takes up full space */
     padding: 0 !important; 
@@ -1691,13 +1695,13 @@ input, select, textarea {
     
     /* Adjust padding/font size if necessary due to long title */
     padding: 1em; /* Add some internal padding */
-    font-size: 1.25em; /* You might need to adjust this */
+    font-size: 1.8vw; /* You might need to adjust this */
 }
 
 /* Optional: Adjust the overall navigation container for fixed tiles */
 #header nav {
     /* Ensure the container can handle the new fixed widths */
-    max-width: none;
+    max-width: 80%;
     width: auto;
 }
 
@@ -1705,3 +1709,4 @@ input, select, textarea {
 #header nav ul {
     justify-content: center;
 }
+
