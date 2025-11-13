@@ -89,6 +89,13 @@ img {
   opacity: 1;
 }
 
+/* Hale and Pace */
+#disclaimer {
+    display: none;
+}
+
+
+
 div.scroll-container {
   background-color: #333;
   overflow: auto;
@@ -175,5 +182,4 @@ div.button-holder {
             padding: 5px 0;
             font-weight: bold;
         }
-		
 		

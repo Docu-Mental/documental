@@ -120,6 +120,28 @@ function showSlides(n, galleryId) {
     }
 }
 
+
+/* -----------------------------Hale and Pace----------------------------------------- */
+// Hale and Pace
+const HALE = "Kermit25"; // 
+const contentDiv = document.getElementById('disclaimer');
+
+// Check if the content element exists before proceeding
+if (contentDiv) {
+    let enteredP = prompt("OTP?", "");
+
+    if (enteredP === HALE) {
+        // Show the content if it is correct
+        contentDiv.style.display = 'block';
+    } else {
+        // Redirect or show a message if it is wrong
+        alert("Incorrect OTP. Access denied.");
+            }
+}
+
+
+/* ---------------------------------------------------------------------- */
+
 /* ---------------------------------------------------------------------- */
 /* --- Hides the currently visible slide -------------------------------- */
 /* ---------------------------------------------------------------------- */
