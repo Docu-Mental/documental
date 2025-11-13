@@ -128,14 +128,14 @@ const contentDiv = document.getElementById('disclaimer');
 
 // Check if the content element exists before proceeding
 if (contentDiv) {
-    let enteredP = prompt("OTP?", "");
+    let enteredP = prompt("Key?", "");
 
     if (enteredP === HALE) {
         // Show the content if it is correct
         contentDiv.style.display = 'block';
     } else {
         // Redirect or show a message if it is wrong
-        alert("Incorrect OTP. Access denied.");
+        alert("Incorrect Key. Access denied.");
             }
 }
 
