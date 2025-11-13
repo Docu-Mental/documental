@@ -960,23 +960,30 @@
 					<li>This portfolio! Hosted in GitHub Pages.</li>
 				</ul>
 				
-				<p>Click the first two thumbnails to open the URL inside an iframe on this page. The last two thumbnails directly open the corresponding GitHub repo (GitHub does not support iframe access).</p>
+				<p>Click the first two thumbnails to open the URL inside an iframe on this page. The last two thumbnails directly open the corresponding GitHub repo in a new browser tab (GitHub does not support iframe access).</p>
 				<div class="container" id="gallery15">
 					<div class="scroll-container">
 					
 						<a href="https://openldocs.readthedocs.io/en/latest/" target="iframe_15"><img id="15-01" title="openl tablets read-the-docs portal" src="docs/article15/openl-tablets-readthedocs.png" style="height:100px" onclick="handleContentClick(1, 'gallery15', true)"></a>
 											
-						<a href="https://docu-mental.github.io/documental/" target="iframe_15"><img id="15-02" title="this website (my portfolio in GitHub Pages)" src="docs/article15/portfolio-github-pages.png" style="height:100px" onclick="handleContentClick(2, 'gallery15', true)"></a>
+						<img id="15-02" title="this website (my portfolio in GitHub Pages)" src="docs/article15/portfolio-github-pages.png" style="height:100px" onclick="handleContentClick(2, 'gallery15', false)"></a>
 						
-						<a href="https://github.com/EISTW/OpenLdocs/"><img id="15-03" title="openl tablets GitHub repo - direct link" src="docs/article15/openl-tablets-github.png" style="height:100px" onclick="handleContentClick(3, 'gallery15', true)"></a>
+						<a href="https://github.com/EISTW/OpenLdocs/" target="_blank"><img id="15-03" title="openl tablets GitHub repo - direct link" src="docs/article15/openl-tablets-github.png" style="height:100px" onclick="handleContentClick(3, 'gallery15', true)"></a>
 						
-						<a href="https://github.com/Docu-Mental/documental"><img id="15-04" title="the GitHUb repo for this portfolio website - direct link" src="docs/article15/portfolio-github.png" style="height:100px" onclick="handleContentClick(4, 'gallery15', true)"></a>
+						<a href="https://github.com/Docu-Mental/documental" target="_blank"><img id="15-04" title="the GitHUb repo for this portfolio website - direct link" src="docs/article15/portfolio-github.png" style="height:100px" onclick="handleContentClick(4, 'gallery15', true)"></a>
 					
 					</div> <!-- end of scroll container -->
 					<div class="caption-container">
 						<p id="caption"></p>
 					</div>	
+					<div class="mySlides">
+							<div class="numbertext">
+							<span class="slide-count"></span>
+							<span class="close-slide-btn" onclick="hideCurrentSlide('gallery15')">&times;</span></div>
+							<img src="docs/article15/portfolio-github-pages.png" alt="Architecture topic" style="width:100%">
+					</div>
 				
+
 				</div> <!-- end of container for gallery 15 -->									
 				
 				<iframe src="" name="iframe_15" width="500" height="500" style="margin-top: 60px;">
